@@ -2,6 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { useEffect, useRef, useState } from "react";
 import { Animated, Button, StyleSheet, Text, View } from "react-native";
 import Lesson2 from "./src/screens/Lesson2";
+import Lesson3 from "./src/screens/Lesson3";
 
 export default function App() {
     const fadeAnimation = useRef(new Animated.Value(0)).current;
@@ -25,7 +26,8 @@ export default function App() {
                 <StatusBar style="auto" />
             </Animated.View> */}
 
-            <Lesson2 />
+            {/* <Lesson2 /> */}
+            <Lesson3 />
         </View>
     );
 }

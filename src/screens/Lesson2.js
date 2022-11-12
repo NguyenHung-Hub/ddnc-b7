@@ -96,7 +96,7 @@ export default function Lesson2() {
                         ],
                     }}
                 >
-                    <Image source={plane} />
+                    <Image source={plane} style={styles.plane} />
                 </Animated.View>
             </View>
 
@@ -188,6 +188,10 @@ const styles = StyleSheet.create({
         flexDirection: "column",
         alignItems: "center",
         width: "100%",
+    },
+    plane: {
+        width: 80,
+        height: 80,
     },
     wrapperPlane: {
         flex: 2,
