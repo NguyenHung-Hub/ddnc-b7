@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { Animated, Button, StyleSheet, Text, View } from "react-native";
 import Lesson2 from "./src/screens/Lesson2";
 import Lesson3 from "./src/screens/Lesson3";
+import Lesson4 from "./src/screens/Lesson4";
 
 export default function App() {
     const fadeAnimation = useRef(new Animated.Value(0)).current;
@@ -27,7 +28,8 @@ export default function App() {
             </Animated.View> */}
 
             {/* <Lesson2 /> */}
-            <Lesson3 />
+            {/* <Lesson3 /> */}
+            <Lesson4 />
         </View>
     );
 }
