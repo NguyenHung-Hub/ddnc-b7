@@ -22,14 +22,14 @@ export default function App() {
 
     return (
         <View style={styles.container}>
-            {/* <Animated.View style={[{ opacity: fadeAnimation }]}>
-                <Text>Welcome to Animation React Native</Text>
+            <Animated.View style={[{ opacity: fadeAnimation }]}>
+                <Text>Welcome to Animation React Native.</Text>
                 <StatusBar style="auto" />
-            </Animated.View> */}
+            </Animated.View>
 
             {/* <Lesson2 /> */}
             {/* <Lesson3 /> */}
-            <Lesson4 />
+            {/* <Lesson4 /> */}
         </View>
     );
 }
